@@ -1,0 +1,21 @@
+{
+  "name": "project-boilerplate-laravel-inertia-vue",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.5.44",
+    "@inertiajs/vue3": "^3.11.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "laravel-vite-plugin": "^2.1.0",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.0"
+  }
+}
