@@ -1,10 +1,10 @@
-# Boilerplate · Laravel · Inertia · Vue
+# Accounting ERP · Laravel · Inertia · Vue
 
-Shared application foundation and module composition. Laravel routes and sessions with Vue pages over the Inertia protocol.
+Ledgers, tax, reporting and finance workflows. Laravel routes and sessions with Vue pages over the Inertia protocol.
 
 This is a presentation skeleton. Product workflows, identity integration and reviewed API adapters must be implemented and verified before production use. Module plans describe intended behavior; they are not installed or published packages.
 
-Shared foundation for the product shells in this presentation layer.
+Based on [project-boilerplate-laravel-inertia-vue](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-vue) at `efc33c1817797b12cd73c9825ebfbdecc8790fc7`.
 
 ## Start locally
 
@@ -32,7 +32,7 @@ npm run typecheck
 npm run build
 ```
 
-Read [AGENTS.md](AGENTS.md), [integration responsibilities](docs/INTEGRATION.md), the [presentation runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/INERTIA.md) and the [product scope](https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md). Enable one vertical journey at a time against reviewed contracts. Verify allowed, denied, wrong-tenant, expired-session, validation and concurrency outcomes when implementing protected behavior. A pending operation is not a completed business transition.
+Read [AGENTS.md](AGENTS.md), [integration responsibilities](docs/INTEGRATION.md), the [presentation runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/INERTIA.md) and the [product scope](https://github.com/liberusoftware/documentation/blob/main/projects/accounting/README.md). Enable one vertical journey at a time against reviewed contracts. Verify allowed, denied, wrong-tenant, expired-session, validation and concurrency outcomes when implementing protected behavior. A pending operation is not a completed business transition.
 
 ## Other projects using Laravel · Inertia · Vue
 
@@ -40,7 +40,7 @@ Use the same presentation foundation for other domains. These repositories provi
 
 | Project | Scope |
 | --- | --- |
-| [Accounting ERP](https://github.com/liberusoftware/project-accounting-erp-laravel-inertia-vue) | Ledgers, tax, reporting and finance workflows |
+| [Boilerplate](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-vue) | Shared application foundation and module composition |
 | [Automation](https://github.com/liberusoftware/project-automation-laravel-inertia-vue) | AI gateways, approvals, rules and integrations |
 | [Billing](https://github.com/liberusoftware/project-billing-laravel-inertia-vue) | Subscriptions, pricing, payments and provisioning |
 | [Browser Game](https://github.com/liberusoftware/project-browser-game-laravel-inertia-vue) | Game worlds, players and community workflows |
@@ -56,18 +56,18 @@ Use the same presentation foundation for other domains. These repositories provi
 | [Real Estate](https://github.com/liberusoftware/project-real-estate-laravel-inertia-vue) | Listings, sales, lettings and agency operations |
 | [Social Network](https://github.com/liberusoftware/project-social-network-laravel-inertia-vue) | Profiles, feeds, communities and moderation |
 
-## Other presentations for Boilerplate
+## Other presentations for Accounting ERP
 
 Choose the surface that fits the audience and deployment boundary. The Laravel core remains authoritative across these alternatives.
 
-- [Laravel · Filament](https://github.com/liberusoftware/project-boilerplate-laravel-filament): PHP/Composer Laravel host with Filament panels.
-- [Laravel · Inertia · React](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-react): Laravel routes and sessions with React pages over the Inertia protocol.
-- [Nuxt · Vue](https://github.com/liberusoftware/project-boilerplate-nuxt-vue): Independent Vue application with Nuxt server rendering and reviewed API integration.
-- [Next.js · React](https://github.com/liberusoftware/project-boilerplate-next-react): Independent React application with explicit Next.js server/client boundaries.
-- [React Native · Expo](https://github.com/liberusoftware/project-boilerplate-mobile-react): Native iOS/Android application using React Native and Expo.
-- [Flutter · Mobile](https://github.com/liberusoftware/project-boilerplate-mobile-flutter): Flutter iOS/Android application using Dart and mobile widgets.
-- [Dart · Desktop](https://github.com/liberusoftware/project-boilerplate-dart-desktop): Dedicated Dart desktop application with a Flutter host for Linux, macOS and Windows.
-- [Dart · Mobile](https://github.com/liberusoftware/project-boilerplate-dart-mobile): Separate Dart mobile application with a Flutter host for iOS and Android.
+- [Laravel · Filament](https://github.com/liberusoftware/project-accounting-erp-laravel-filament): PHP/Composer Laravel host with Filament panels.
+- [Laravel · Inertia · React](https://github.com/liberusoftware/project-accounting-erp-laravel-inertia-react): Laravel routes and sessions with React pages over the Inertia protocol.
+- [Nuxt · Vue](https://github.com/liberusoftware/project-accounting-erp-nuxt-vue): Independent Vue application with Nuxt server rendering and reviewed API integration.
+- [Next.js · React](https://github.com/liberusoftware/project-accounting-erp-next-react): Independent React application with explicit Next.js server/client boundaries.
+- [React Native · Expo](https://github.com/liberusoftware/project-accounting-erp-mobile-react): Native iOS/Android application using React Native and Expo.
+- [Flutter · Mobile](https://github.com/liberusoftware/project-accounting-erp-mobile-flutter): Flutter iOS/Android application using Dart and mobile widgets.
+- [Dart · Desktop](https://github.com/liberusoftware/project-accounting-erp-dart-desktop): Dedicated Dart desktop application with a Flutter host for Linux, macOS and Windows.
+- [Dart · Mobile](https://github.com/liberusoftware/project-accounting-erp-dart-mobile): Separate Dart mobile application with a Flutter host for iOS and Android.
 
 ## License and delivery
 

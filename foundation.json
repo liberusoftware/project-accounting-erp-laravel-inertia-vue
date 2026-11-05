@@ -1,9 +1,9 @@
 {
-  "project": "boilerplate",
+  "project": "accounting-erp",
   "presentation": "laravel-inertia-vue",
   "foundation": "project-boilerplate-laravel-inertia-vue",
-  "foundationCommit": null,
-  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md",
+  "foundationCommit": "efc33c1817797b12cd73c9825ebfbdecc8790fc7",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/accounting/README.md",
   "status": "skeleton",
   "enabledModules": []
 }

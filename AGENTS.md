@@ -1,6 +1,6 @@
-# Agent guidance — Boilerplate, Laravel · Inertia · Vue
+# Agent guidance — Accounting ERP, Laravel · Inertia · Vue
 
-Read [README.md](README.md), [integration responsibilities](docs/INTEGRATION.md), [presentation architecture](https://github.com/liberusoftware/documentation/blob/main/architecture/PRESENTATION.md), [module architecture](https://github.com/liberusoftware/documentation/blob/main/architecture/MODULES.md), and the [layer runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/INERTIA.md). Product plans live at [projects/boilerplate](https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md).
+Read [README.md](README.md), [integration responsibilities](docs/INTEGRATION.md), [presentation architecture](https://github.com/liberusoftware/documentation/blob/main/architecture/PRESENTATION.md), [module architecture](https://github.com/liberusoftware/documentation/blob/main/architecture/MODULES.md), and the [layer runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/INERTIA.md). Product plans live at [projects/accounting](https://github.com/liberusoftware/documentation/blob/main/projects/accounting/README.md).
 
 - This application owns composition, navigation, configuration and presentation. Canonical Laravel packages own policies, actor/tenant context, domain rules, persistence, transactions and durable events.
 - Use public actions/queries for a trusted Laravel host; independent clients use reviewed API contracts. Do not invent endpoints, claim existing package availability from a slug, or access another owner's private tables.

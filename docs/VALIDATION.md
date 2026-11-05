@@ -1,10 +1,5 @@
-# Foundation validation
+# Validation responsibilities
 
-Recorded on 2026-11-05 for this generated foundation:
+This shell was derived from [project-boilerplate-laravel-inertia-vue](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-vue) at `efc33c1817797b12cd73c9825ebfbdecc8790fc7`. The foundation's checks cover its build setup and public shell; product-specific integration remains unimplemented. See the foundation's validation record for its actual results.
 
-- Passed: `composer validate --strict`.
-- Passed: `php artisan test (2 tests)`.
-- Passed: `npm run typecheck`.
-- Passed: `npm run build`.
-
-These checks cover the public shell and build setup. They do not establish implemented business workflows, API integration, native signing, platform distribution or physical-device behavior. Run the same checks after changes and record product-specific journey evidence when implemented.
+Run the commands in README.md after installing from locks. Native targets require their documented SDKs and operating systems. Record product-specific API and journey results when those features exist; do not claim signed builds or device tests from foundation analysis alone.
