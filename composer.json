@@ -85,5 +85,10 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "homepage": "https://github.com/liberusoftware/project-accounting-erp-laravel-inertia-vue",
+    "support": {
+        "issues": "https://github.com/liberusoftware/project-accounting-erp-laravel-inertia-vue/issues",
+        "source": "https://github.com/liberusoftware/project-accounting-erp-laravel-inertia-vue"
+    }
 }
